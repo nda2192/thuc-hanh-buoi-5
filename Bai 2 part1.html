@@ -8,22 +8,45 @@
 
 <body>
     <form action="google.com" method="GET">
-        <H3>SỞ THÍCH CỦA BẠN</H3>
-        <p style="color: blue;">Họ và tên <input type="text" name="yourname" id="name"></p>
-        <p style="color: blue;">Email <input type="text" name="email" id="mail"></p>
-        <p style="color: blue;">Sở thích
-        
-            <input type="checkbox" name="hobby"> Thể thao
-            <input type="checkbox" name="hobby"> Âm nhạc
-            <input type="checkbox" name="hobby"> Đọc sách <br>
-            <input type="checkbox" name="hobby"> Lướt web
-            <input type="checkbox" name="hobby"> Chơi game
-            <input type="checkbox" name="hobby"> Điện ảnh <br>
-            <input type="checkbox" name="hobby"> Du lịch
-        
-        </p>
-        <input type="submit" value="Gửi thông tin" name="submit">
-        <input type="reset" value="Nhập lại" name="rs">
+        <table>
+            <tr>
+                <td colspan="5" style="background-color: red; color: white;" align="center">SỞ THÍCH CỦA BẠN</td>
+            </tr>
+            <tr>
+                <td style="color: blue;" align="right">Họ và tên</td>
+                <td><input type="text" name="yourname" size="12"></td>
+            </tr>
+            <tr>
+                <td style="color: blue;" align="right">Email</td>
+                <td><input type="text" name="email" size="8"></td>
+            </tr>
+            <tr>
+                <td style="color: blue;" align="right">Sở thích</td>
+                <td><input type="checkbox" name="hobby">Thể thao</td>
+                <td><input type="checkbox" name="hobby">Âm nhạc</td>
+                <td><input type="checkbox" name="hobby">Đọc sách</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby">Lướt web</td>
+                <td><input type="checkbox" name="hobby">Chơi game</td>
+                <td><input type="checkbox" name="hobby">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="hobby">Du lịch</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" value="Gui thong tin"></td>
+                <td><input type="reset" name="reset" value="Nhap lai"></td>
+            </tr>
+            </tr>
+            </tr>
+        </table>
+    
+
+
 
     </form>
 
