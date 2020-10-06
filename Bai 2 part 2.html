@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tạo Form Đơn Giản Part 2</title>
+</head>
+
+<body>
+    <form action="google.com" method="GET">
+        <table>
+            <th >ĐĂNG KÝ HỌC VIÊN</th>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type=text name="name"></td>
+            </tr>
+            <tr>
+                <td>Ngày Sinh</td>
+                <td><input type=text name="dob"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td><input type="radio" name="sex">Nam</td>
+                <td><input type="radio" name="sex">Nữ</td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><textarea name="text1" rows="3" cols="18"></textarea></td>
+            </tr>
+            <tr>
+                <td>Chọn lớp</td>
+                <td><select name="lop">
+                    <option>-Chọn lớp-</option>
+                    <option value="10" >Lop 10</option>
+                    <option value="11">Lop 11</option>
+                    <option value="12">Lop 12</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type=text name="Email"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type=text name="phone"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="reg" value="Đăng ký">
+                <input type="reset" name="reset" value="Nhập lại"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
